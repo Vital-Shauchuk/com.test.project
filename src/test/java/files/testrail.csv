@@ -1,0 +1,2 @@
+﻿id,title,description,preconditions,postconditions,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite
+5,"test case","test case description",,,medium,normal,smoke,positive,to-be-automated,actual,no,e2e,,,,,,,

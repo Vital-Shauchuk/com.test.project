@@ -1,0 +1,5 @@
+/.idea/
+/target/
+/allure-results/
+/build/
+/com.test.project.iml

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Main Test Suite">
+    <test name="SmokeUITest">
+        <classes>
+            <class name="tests.ui.ProjectCreateCorrectName_BoundaryTest"/>
+            <class name="tests.ui.CustomFieldsUpgradeSubscription_DialogWindowTest"/>
+            <class name="tests.ui.NegativeBoundaryTest"/>
+            <class name="tests.ui.NegativeLoginTest"/>
+            <class name="tests.ui.FailedLoginIncorrectPasswordTest"/>
+            <class name="tests.ui.ProjectCreated_AlertTest"/>
+            <class name="tests.ui.ProjectCreateIncorrectName_BoundaryTest"/>
+            <class name="tests.ui.TestCase_CRUDTest"/>
+            <class name="tests.ui.TestCaseImport_UploadTest"/>
+            <class name="tests.ui.TestCaseImport_Upload_XLSTest"/>
+        </classes>
+    </test>
+
+    <test name="SmokeApiTest">
+           <classes>
+            <class name="tests.api.DeleteSuiteProjectTest"/>
+            <class name="tests.api.GetAllSuitesTest"/>
+            <class name="tests.api.GetProjectByCodeTest"/>
+            <class name="tests.api.PostCreateTestSuiteTest"/>
+            <class name="tests.api.PatchUpdateSuiteTest"/>
+            <class name="tests.api.NegativeGetStatusCode_401Test"/>
+            <class name="tests.api.NegativeGetStatusCode_404Test"/>
+            <class name="tests.api.NegativePatchStatusCode_404Test"/>
+            <class name="tests.api.NegativePatchStatusCode_405Test"/>
+        </classes>
+    </test>
+</suite>
